@@ -18,3 +18,4 @@ console.log(age);
 //boolean
 let isPassed: boolean = true;
 console.log(isPassed);
+
