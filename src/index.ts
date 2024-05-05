@@ -47,3 +47,13 @@ console.log(names2);
 let student: [string, number, boolean] = ['alice', 58, true];
 console.log(student[0], student[1], student[2]);
 
+//any - not recommdated.
+let randonValue: any = 'hello';
+randonValue = false;
+console.log(randonValue);
+
+// unknow type
+let value: unknown = 'World';
+if (typeof value === 'string') {
+  console.log(value.toUpperCase());
+}
