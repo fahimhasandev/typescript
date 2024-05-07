@@ -37,7 +37,24 @@ console.log(names2);
 // tuples - fix array length, then use tuples
 let student = ['alice', 58, true];
 console.log(student[0], student[1], student[2]);
-//any
+//any - not recommendated.
 let randonValue = 'hello';
 randonValue = false;
 console.log(randonValue);
+// unknow type - safety checking
+let value = 'World';
+//type safetly checking
+if (typeof value === 'string') {
+    console.log(value.toUpperCase());
+}
+// void type - function has no return value
+function sayHello(message) {
+    console.log(message);
+}
+sayHello('Fahim');
+// null and undefined
+let nothing = null;
+console.log(nothing);
+//undefined
+let notAssigned;
+console.log(notAssigned);

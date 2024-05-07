@@ -47,13 +47,30 @@ console.log(names2);
 let student: [string, number, boolean] = ['alice', 58, true];
 console.log(student[0], student[1], student[2]);
 
-//any - not recommdated.
+//any - not recommendated.
 let randonValue: any = 'hello';
 randonValue = false;
 console.log(randonValue);
 
-// unknow type
+// unknow type - safety checking
 let value: unknown = 'World';
+//type safetly checking
 if (typeof value === 'string') {
   console.log(value.toUpperCase());
 }
+
+// void type - function has no return value
+function sayHello(message: string): void {
+  console.log(message);
+}
+sayHello('Fahim');
+
+// null and undefined
+let nothing: null = null;
+console.log(nothing);
+
+//undefined
+let notAssigned: undefined;
+console.log(notAssigned)
+
+
