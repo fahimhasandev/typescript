@@ -5,6 +5,8 @@ tsc --init --> create tsconfig.json
 "rootDir": "./src" ---where tyscript file will be
 "outDir": "./dist"
 
-compile:
+### compile:
 tsc - typescript compiler
 npx tsc
+npx tsc --watch
+

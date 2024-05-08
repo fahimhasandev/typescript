@@ -71,6 +71,28 @@ console.log(nothing);
 
 //undefined
 let notAssigned: undefined;
-console.log(notAssigned)
+console.log(notAssigned);
 
+//type is model
+type Student = {
+  name: string;
+  age: number;
+  isEnrolled: boolean;
+  courses: string[];
+  scores: number[];
+  info: [string, number, boolean];
+};
 
+const student1: Student = {
+  name: 'Fahim',
+  age: 34,
+  isEnrolled: false,
+  courses: ['js', 'python'],
+  scores: [89, 67],
+  info: ['Faim', 34, false],
+};
+console.log(student1)
+
+function displayStudent (student: Student){
+    
+}

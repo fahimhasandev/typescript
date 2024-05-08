@@ -58,3 +58,14 @@ console.log(nothing);
 //undefined
 let notAssigned;
 console.log(notAssigned);
+const student1 = {
+    name: 'Fahim',
+    age: 34,
+    isEnrolled: false,
+    courses: ['js', 'python'],
+    scores: [89, 67],
+    info: ['Faim', 34, false],
+};
+console.log(student1);
+function displayStudent(student) {
+}
